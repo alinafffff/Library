@@ -726,3 +726,558 @@ java.util.NoSuchElementException: No value present
 2024-07-04 19:27:29.237 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-07-04 19:27:29.240 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-07-04 19:27:29.251 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-04 19:47:15.459 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 17348 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-04 19:47:15.461 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-04 19:47:16.125 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-04 19:47:16.187 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2024-07-04 19:47:16.771 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-04 19:47:16.785 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-04 19:47:16.787 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-04 19:47:16.787 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-04 19:47:16.846 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-04 19:47:16.847 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1331 ms
+2024-07-04 19:47:17.007 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-04 19:47:17.067 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-04 19:47:17.100 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-04 19:47:17.420 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-04 19:47:17.448 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-04 19:47:17.633 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2f86f9cf
+2024-07-04 19:47:17.635 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-04 19:47:17.674 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-04 19:47:18.466 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-04 19:47:18.504 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-04 19:47:18.717 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-04 19:47:18.803 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-04 19:47:19.120 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-04 19:47:19.142 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-04 19:47:19.159 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 4.036 seconds (process running for 4.566)
+2024-07-04 19:47:37.529 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-04 19:47:37.529 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-04 19:47:37.531 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-04 19:47:37.584 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.PatentServiceImpl - Finding all patents
+2024-07-04 19:47:44.453 [http-nio-8080-exec-3] INFO  r.f.l.service.impl.BookServiceImpl - Finding books by author: Harper Lee
+2024-07-04 19:47:50.437 [http-nio-8080-exec-4] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-04 19:47:57.963 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-04 19:47:57.966 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-04 19:47:57.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-04 19:49:55.792 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 8868 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-04 19:49:55.795 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-04 19:49:56.435 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-04 19:49:56.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 2 JPA repository interfaces.
+2024-07-04 19:49:57.115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-04 19:49:57.125 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-04 19:49:57.127 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-04 19:49:57.128 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-04 19:49:57.203 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-04 19:49:57.205 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1357 ms
+2024-07-04 19:49:57.377 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-04 19:49:57.432 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-04 19:49:57.465 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-04 19:49:57.770 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-04 19:49:57.797 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-04 19:49:57.963 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b6b5352
+2024-07-04 19:49:57.964 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-04 19:49:58.007 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-04 19:49:58.791 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-04 19:49:58.829 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-04 19:49:59.060 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-04 19:49:59.130 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-04 19:49:59.445 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-04 19:49:59.460 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-04 19:49:59.476 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 4.033 seconds (process running for 4.547)
+2024-07-04 19:50:02.509 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-04 19:50:02.512 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-04 19:50:02.523 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:09:13.980 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 1868 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:09:13.983 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:09:14.688 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:09:14.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:09:15.381 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:09:15.393 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:09:15.396 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:09:15.396 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:09:15.463 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:09:15.465 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1421 ms
+2024-07-08 10:09:15.654 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 10:09:15.742 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 10:09:15.786 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 10:09:16.141 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 10:09:16.172 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:09:16.378 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b39e79b
+2024-07-08 10:09:16.380 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:09:16.433 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 10:09:17.249 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 10:09:17.302 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:09:17.536 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 10:09:17.620 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 10:09:18.175 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:09:18.210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 10:09:18.242 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 4.624 seconds (process running for 5.295)
+2024-07-08 10:10:06.589 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08 10:10:06.590 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-08 10:10:06.592 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-08 10:10:06.651 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding book by id: 1
+2024-07-08 10:10:09.667 [http-nio-8080-exec-3] INFO  r.f.l.service.impl.BookServiceImpl - Finding book by id: 2
+2024-07-08 10:10:09.673 [http-nio-8080-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.orElseThrow(Optional.java:377)
+	at ru.fedorova.library.service.impl.BookServiceImpl.findById(BookServiceImpl.java:37)
+	at ru.fedorova.library.controller.BookController.getById(BookController.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-07-08 10:10:14.279 [http-nio-8080-exec-4] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 10:10:25.308 [http-nio-8080-exec-5] INFO  r.f.l.service.impl.BookServiceImpl - Finding books by author: Harper Lee
+2024-07-08 10:10:32.284 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:10:32.286 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:10:32.290 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:22:21.677 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 4508 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:22:21.681 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:22:22.521 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:22:22.595 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:22:23.373 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:22:23.386 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:22:23.389 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:22:23.389 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:22:23.474 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:22:23.476 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1730 ms
+2024-07-08 10:22:23.709 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 10:22:23.794 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 10:22:23.835 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 10:22:24.224 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 10:22:24.261 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:22:24.496 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@adafe19
+2024-07-08 10:22:24.498 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:22:24.548 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 10:22:25.579 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 10:22:25.583 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:22:25.846 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 10:22:25.941 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 10:22:26.330 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:22:26.351 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 10:22:26.361 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 5.128 seconds (process running for 5.824)
+2024-07-08 10:22:30.947 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:22:30.950 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:22:30.957 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:23:24.027 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 11060 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:23:24.030 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:23:24.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:23:24.987 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:23:25.716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:23:25.729 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:23:25.733 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:23:25.734 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:23:25.804 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:23:25.806 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1708 ms
+2024-07-08 10:23:25.924 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception with message: 'void liquibase.integration.spring.SpringLiquibase.setLabelFilter(java.lang.String)'
+2024-07-08 10:23:25.927 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-08 10:23:25.945 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-08 10:23:25.975 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:113)
+
+The following method did not exist:
+
+    'void liquibase.integration.spring.SpringLiquibase.setLabelFilter(java.lang.String)'
+
+The calling method's class, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration, was loaded from the following location:
+
+    jar:file:/C:/Users/Alina/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.1/spring-boot-autoconfigure-3.3.1.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class
+
+The called method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/C:/Users/Alina/.m2/repository/org/liquibase/liquibase-core/4.8.0/liquibase-core-4.8.0.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    liquibase.integration.spring.SpringLiquibase: file:/C:/Users/Alina/.m2/repository/org/liquibase/liquibase-core/4.8.0/liquibase-core-4.8.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration and liquibase.integration.spring.SpringLiquibase
+
+2024-07-08 10:36:37.248 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 5256 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:36:37.253 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:36:38.065 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:36:38.154 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:36:38.933 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:36:38.944 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:36:38.947 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:36:38.947 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:36:39.053 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:36:39.055 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1738 ms
+2024-07-08 10:36:39.207 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: Failed to instantiate [liquibase.integration.spring.SpringLiquibase]: Factory method 'liquibase' threw exception with message: 'void liquibase.integration.spring.SpringLiquibase.setLabelFilter(java.lang.String)'
+2024-07-08 10:36:39.211 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-08 10:36:39.226 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-08 10:36:39.255 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration.liquibase(LiquibaseAutoConfiguration.java:113)
+
+The following method did not exist:
+
+    'void liquibase.integration.spring.SpringLiquibase.setLabelFilter(java.lang.String)'
+
+The calling method's class, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration, was loaded from the following location:
+
+    jar:file:/C:/Users/Alina/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.1/spring-boot-autoconfigure-3.3.1.jar!/org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class
+
+The called method's class, liquibase.integration.spring.SpringLiquibase, is available from the following locations:
+
+    jar:file:/C:/Users/Alina/.m2/repository/org/liquibase/liquibase-core/4.8.0/liquibase-core-4.8.0.jar!/liquibase/integration/spring/SpringLiquibase.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    liquibase.integration.spring.SpringLiquibase: file:/C:/Users/Alina/.m2/repository/org/liquibase/liquibase-core/4.8.0/liquibase-core-4.8.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration$LiquibaseConfiguration and liquibase.integration.spring.SpringLiquibase
+
+2024-07-08 10:38:11.765 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 16516 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:38:11.768 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:38:12.433 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:38:12.491 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:38:13.056 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:38:13.066 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:38:13.069 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:38:13.069 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:38:13.126 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:38:13.128 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1300 ms
+2024-07-08 10:38:13.251 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:38:13.431 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7126e26
+2024-07-08 10:38:13.433 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:38:13.563 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-08 10:38:13.760 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-08 10:38:14.055 [main] INFO  liquibase.changelog - Creating database history table with name: public.databasechangelog
+2024-07-08 10:38:14.063 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:38:14.085 [main] INFO  liquibase.command - Using deploymentId: 0420694066
+2024-07-08 10:38:14.119 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:38:14.136 [main] ERROR liquibase.changelog - ChangeSet db/changelog/V_1.0.0/add_column_description.xml::1::Alina encountered an exception.
+2024-07-08 10:38:14.137 [main] INFO  liquibase.command - Update command encountered an exception.
+2024-07-08 10:38:14.140 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:38:14.142 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:38:14.143 [main] INFO  liquibase.command - Command execution complete
+2024-07-08 10:38:14.145 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+2024-07-08 10:38:14.145 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:38:14.209 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:38:14.212 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-07-08 10:38:14.221 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-08 10:38:14.239 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at ru.fedorova.library.LibraryApplication.main(LibraryApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liquibase' defined in class path resource [org/springframework/boot/autoconfigure/liquibase/LiquibaseAutoConfiguration$LiquibaseConfiguration.class]: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+	... 10 common frames omitted
+Caused by: liquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at liquibase.command.CommandScope.execute(CommandScope.java:235)
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:237)
+	at liquibase.Scope.lambda$child$0(Scope.java:194)
+	at liquibase.Scope.child(Scope.java:203)
+	at liquibase.Scope.child(Scope.java:193)
+	at liquibase.Scope.child(Scope.java:172)
+	at liquibase.Liquibase.runInScope(Liquibase.java:1605)
+	at liquibase.Liquibase.update(Liquibase.java:229)
+	at liquibase.Liquibase.update(Liquibase.java:213)
+	at liquibase.integration.spring.SpringLiquibase.performUpdate(SpringLiquibase.java:329)
+	at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 17 common frames omitted
+Caused by: liquibase.exception.LiquibaseException: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:121)
+	at liquibase.command.core.AbstractUpdateCommandStep.lambda$run$0(AbstractUpdateCommandStep.java:103)
+	at liquibase.Scope.lambda$child$0(Scope.java:194)
+	at liquibase.Scope.child(Scope.java:203)
+	at liquibase.Scope.child(Scope.java:193)
+	at liquibase.Scope.child(Scope.java:172)
+	at liquibase.command.core.AbstractUpdateCommandStep.run(AbstractUpdateCommandStep.java:100)
+	at liquibase.command.CommandScope.execute(CommandScope.java:212)
+	... 29 common frames omitted
+Caused by: liquibase.exception.MigrationFailedException: Migration failed for changeset db/changelog/V_1.0.0/add_column_description.xml::1::Alina:
+     Reason: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:759)
+	at liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:61)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:109)
+	at liquibase.Scope.lambda$child$0(Scope.java:194)
+	at liquibase.Scope.child(Scope.java:203)
+	at liquibase.Scope.child(Scope.java:193)
+	at liquibase.Scope.child(Scope.java:172)
+	at liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:109)
+	at liquibase.Scope.lambda$child$0(Scope.java:194)
+	at liquibase.Scope.child(Scope.java:203)
+	at liquibase.Scope.child(Scope.java:193)
+	at liquibase.Scope.child(Scope.java:172)
+	at liquibase.Scope.child(Scope.java:260)
+	at liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:92)
+	at liquibase.Scope.lambda$child$0(Scope.java:194)
+	at liquibase.Scope.child(Scope.java:203)
+	at liquibase.Scope.child(Scope.java:193)
+	at liquibase.Scope.child(Scope.java:172)
+	at liquibase.Scope.child(Scope.java:260)
+	at liquibase.Scope.child(Scope.java:264)
+	at liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:66)
+	... 36 common frames omitted
+Caused by: liquibase.exception.DatabaseException: ОШИБКА: отношение "public.Book" не существует [Failed SQL: (0) ALTER TABLE public."Book" ADD description VARCHAR(255)]
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:445)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77)
+	at liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:160)
+	at liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1287)
+	at liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1269)
+	at liquibase.changelog.ChangeSet.execute(ChangeSet.java:717)
+	... 56 common frames omitted
+Caused by: org.postgresql.util.PSQLException: ОШИБКА: отношение "public.Book" не существует
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:297)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:441)
+	... 61 common frames omitted
+2024-07-08 10:43:04.904 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 14996 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:43:04.907 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:43:05.726 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:43:05.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:43:06.581 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:43:06.593 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:43:06.597 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:43:06.598 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:43:06.676 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:43:06.678 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1709 ms
+2024-07-08 10:43:06.847 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:43:07.087 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4d705112
+2024-07-08 10:43:07.089 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:43:07.279 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-08 10:43:07.466 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-08 10:43:07.835 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:43:07.862 [main] INFO  liquibase.command - Using deploymentId: 0420987838
+2024-07-08 10:43:07.905 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:43:07.930 [main] INFO  liquibase.changelog - Columns description(varchar(255)) added to book
+2024-07-08 10:43:07.931 [main] INFO  liquibase.changelog - ChangeSet db/changelog/V_1.0.0/add_column_description.xml::1::Alina ran successfully in 14ms
+2024-07-08 10:43:07.939 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-08 10:43:07.939 [main] INFO  liquibase.util - Run:                          1
+2024-07-08 10:43:07.939 [main] INFO  liquibase.util - Previously run:               0
+2024-07-08 10:43:07.939 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-08 10:43:07.940 [main] INFO  liquibase.util - -------------------------------
+2024-07-08 10:43:07.940 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-08 10:43:07.941 [main] INFO  liquibase.util - Update summary generated
+2024-07-08 10:43:07.943 [main] INFO  liquibase.command - Update command completed successfully.
+2024-07-08 10:43:07.946 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:43:07.952 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:43:07.952 [main] INFO  liquibase.command - Command execution complete
+2024-07-08 10:43:08.052 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 10:43:08.139 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 10:43:08.182 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 10:43:08.547 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 10:43:08.608 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 10:43:09.575 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 10:43:09.578 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:43:09.841 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 10:43:09.938 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 10:43:10.314 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:43:10.335 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 10:43:10.346 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 5.896 seconds (process running for 6.611)
+2024-07-08 10:44:59.961 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08 10:44:59.961 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-08 10:44:59.963 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-08 10:45:00.028 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding books by author: Harper Lee
+2024-07-08 10:45:12.555 [http-nio-8080-exec-2] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 10:45:17.992 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:45:17.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:45:17.998 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:45:23.030 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 7660 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:45:23.034 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:45:23.883 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:45:23.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:45:24.742 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:45:24.754 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:45:24.756 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:45:24.756 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:45:24.841 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:45:24.843 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1742 ms
+2024-07-08 10:45:25.018 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:45:25.243 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@262a1fad
+2024-07-08 10:45:25.244 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:45:25.430 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-08 10:45:25.662 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-08 10:45:26.061 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:45:26.081 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:45:26.085 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-08 10:45:26.085 [main] INFO  liquibase.util - Run:                          0
+2024-07-08 10:45:26.086 [main] INFO  liquibase.util - Previously run:               1
+2024-07-08 10:45:26.086 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-08 10:45:26.086 [main] INFO  liquibase.util - -------------------------------
+2024-07-08 10:45:26.086 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-08 10:45:26.087 [main] INFO  liquibase.util - Update summary generated
+2024-07-08 10:45:26.090 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:45:26.094 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:45:26.095 [main] INFO  liquibase.command - Command execution complete
+2024-07-08 10:45:26.182 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 10:45:26.246 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 10:45:26.296 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 10:45:26.668 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 10:45:26.734 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 10:45:27.669 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 10:45:27.673 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:45:27.997 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 10:45:28.078 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 10:45:28.476 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:45:28.504 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 10:45:28.518 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 5.931 seconds (process running for 6.688)
+2024-07-08 10:45:37.009 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08 10:45:37.010 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-08 10:45:37.011 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-08 10:45:37.057 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 10:49:00.287 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:49:00.290 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:49:00.301 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 10:49:04.658 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 14512 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 10:49:04.662 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 10:49:05.486 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 10:49:05.568 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2024-07-08 10:49:06.335 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 10:49:06.347 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:49:06.350 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 10:49:06.350 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 10:49:06.431 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 10:49:06.433 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1713 ms
+2024-07-08 10:49:06.602 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 10:49:06.856 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e01b133
+2024-07-08 10:49:06.858 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 10:49:07.038 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-08 10:49:07.235 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-08 10:49:07.628 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:49:07.649 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 10:49:07.653 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-08 10:49:07.654 [main] INFO  liquibase.util - Run:                          0
+2024-07-08 10:49:07.654 [main] INFO  liquibase.util - Previously run:               1
+2024-07-08 10:49:07.654 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-08 10:49:07.655 [main] INFO  liquibase.util - -------------------------------
+2024-07-08 10:49:07.655 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-08 10:49:07.656 [main] INFO  liquibase.util - Update summary generated
+2024-07-08 10:49:07.664 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:49:07.669 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 10:49:07.670 [main] INFO  liquibase.command - Command execution complete
+2024-07-08 10:49:07.756 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 10:49:07.832 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 10:49:07.889 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 10:49:08.253 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 10:49:08.325 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 10:49:09.268 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 10:49:09.272 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:49:09.537 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 10:49:09.634 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 10:49:10.009 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 10:49:10.028 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 10:49:10.040 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 5.823 seconds (process running for 6.538)
+2024-07-08 10:49:18.565 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08 10:49:18.566 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-08 10:49:18.568 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-08 10:49:18.627 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 10:49:31.081 [http-nio-8080-exec-3] INFO  r.f.l.service.impl.PatentServiceImpl - Finding all patents
+2024-07-08 10:49:37.117 [http-nio-8080-exec-2] INFO  r.f.l.service.impl.BookServiceImpl - Finding books with ISBN containing: 3546
+2024-07-08 10:49:40.260 [http-nio-8080-exec-4] INFO  r.f.l.service.impl.BookServiceImpl - Finding books with ISBN containing: 3546
+2024-07-08 10:49:48.168 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 10:49:48.171 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 10:49:48.182 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
