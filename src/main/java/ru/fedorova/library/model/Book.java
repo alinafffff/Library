@@ -31,4 +31,7 @@ public class Book {
     @Column(name = "release_year", nullable = false)
     private LocalDate releaseYear;
 
+    @Column(name = "description")
+    private String description;
+
 }
