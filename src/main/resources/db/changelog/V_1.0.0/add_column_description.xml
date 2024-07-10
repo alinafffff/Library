@@ -16,5 +16,10 @@
                 <constraints nullable="true"/>
             </column>
         </addColumn>
+        <rollback>
+            <sql>
+                ALTER TABLE book DROP COLUMN description
+            </sql>
+        </rollback>
     </changeSet>
 </databaseChangeLog>

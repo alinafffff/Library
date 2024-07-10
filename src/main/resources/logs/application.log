@@ -1427,3 +1427,231 @@ Caused by: org.postgresql.util.PSQLException: ОШИБКА: отношение "
 2024-07-08 11:05:29.241 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-07-08 11:05:29.244 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2024-07-08 11:05:29.250 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-08 11:07:17.782 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 12576 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-08 11:07:17.787 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-08 11:07:18.663 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-08 11:07:18.745 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-07-08 11:07:19.483 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-08 11:07:19.503 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-08 11:07:19.506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-08 11:07:19.506 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-08 11:07:19.588 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-08 11:07:19.590 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1736 ms
+2024-07-08 11:07:19.771 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-08 11:07:20.013 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59a2388e
+2024-07-08 11:07:20.015 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-08 11:07:20.194 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-08 11:07:20.401 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-08 11:07:20.785 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 11:07:20.805 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - Run:                          0
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - Previously run:               1
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - -------------------------------
+2024-07-08 11:07:20.810 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-08 11:07:20.811 [main] INFO  liquibase.util - Update summary generated
+2024-07-08 11:07:20.822 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 11:07:20.834 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-08 11:07:20.835 [main] INFO  liquibase.command - Command execution complete
+2024-07-08 11:07:20.963 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-08 11:07:21.046 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-08 11:07:21.102 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-08 11:07:21.501 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-08 11:07:21.558 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-08 11:07:22.533 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-08 11:07:22.536 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 11:07:22.825 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-08 11:07:22.911 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-08 11:07:23.270 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-08 11:07:23.287 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-08 11:07:23.295 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 6.009 seconds (process running for 6.76)
+2024-07-08 11:07:44.770 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-08 11:07:44.770 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-08 11:07:44.772 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-08 11:07:44.822 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 11:07:46.358 [http-nio-8080-exec-3] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-08 11:08:00.394 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-08 11:08:00.397 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-08 11:08:00.405 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-10 19:02:17.924 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 11260 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-10 19:02:17.926 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-10 19:02:18.656 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 19:02:18.739 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2024-07-10 19:02:19.405 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-10 19:02:19.415 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:02:19.418 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-10 19:02:19.418 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 19:02:19.478 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-10 19:02:19.479 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1497 ms
+2024-07-10 19:02:19.601 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-10 19:02:19.811 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4aeb0e2b
+2024-07-10 19:02:19.813 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-10 19:02:19.965 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-10 19:02:20.112 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-10 19:02:20.430 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:02:20.448 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:02:20.452 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-10 19:02:20.453 [main] INFO  liquibase.util - Run:                          0
+2024-07-10 19:02:20.453 [main] INFO  liquibase.util - Previously run:               1
+2024-07-10 19:02:20.453 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-10 19:02:20.453 [main] INFO  liquibase.util - -------------------------------
+2024-07-10 19:02:20.453 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-10 19:02:20.454 [main] INFO  liquibase.util - Update summary generated
+2024-07-10 19:02:20.456 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:02:20.460 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:02:20.461 [main] INFO  liquibase.command - Command execution complete
+2024-07-10 19:02:20.540 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 19:02:20.612 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 19:02:20.664 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-10 19:02:20.991 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 19:02:21.045 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 19:02:21.798 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 19:02:21.801 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:02:22.021 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-10 19:02:22.085 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 19:02:22.404 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:02:22.421 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 19:02:22.431 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 4.889 seconds (process running for 5.541)
+2024-07-10 19:02:31.151 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 19:02:31.151 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-10 19:02:31.152 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-07-10 19:02:31.184 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-10 19:02:41.784 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:02:41.786 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-10 19:02:41.789 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-10 19:09:53.724 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 17044 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-10 19:09:53.727 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-10 19:09:54.663 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 19:09:54.759 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2024-07-10 19:09:55.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-10 19:09:55.609 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:09:55.613 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-10 19:09:55.613 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 19:09:55.700 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-10 19:09:55.702 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1913 ms
+2024-07-10 19:09:55.881 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-10 19:09:56.122 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@262a1fad
+2024-07-10 19:09:56.124 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-10 19:09:56.313 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-10 19:09:56.510 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-10 19:09:56.931 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:09:56.953 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:09:56.958 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-10 19:09:56.959 [main] INFO  liquibase.util - Run:                          0
+2024-07-10 19:09:56.959 [main] INFO  liquibase.util - Previously run:               1
+2024-07-10 19:09:56.959 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-10 19:09:56.959 [main] INFO  liquibase.util - -------------------------------
+2024-07-10 19:09:56.959 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-10 19:09:56.961 [main] INFO  liquibase.util - Update summary generated
+2024-07-10 19:09:56.964 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:09:56.969 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:09:56.970 [main] INFO  liquibase.command - Command execution complete
+2024-07-10 19:09:57.071 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 19:09:57.137 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 19:09:57.191 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-10 19:09:57.560 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 19:09:57.627 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 19:09:58.628 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 19:09:58.631 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:09:58.867 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-10 19:09:58.958 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 19:09:59.313 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:09:59.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 19:09:59.345 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 6.09 seconds (process running for 6.802)
+2024-07-10 19:16:32.864 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:16:32.867 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-10 19:16:32.871 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-10 19:36:15.779 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 12544 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-10 19:36:15.784 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-10 19:36:16.924 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 19:36:17.047 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 106 ms. Found 2 JPA repository interfaces.
+2024-07-10 19:36:18.087 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-10 19:36:18.103 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:36:18.106 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-10 19:36:18.106 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 19:36:18.215 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-10 19:36:18.218 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2344 ms
+2024-07-10 19:36:18.456 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-10 19:36:18.766 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@262a1fad
+2024-07-10 19:36:18.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-10 19:36:19.014 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-10 19:36:19.262 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-10 19:36:19.805 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:36:19.832 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:36:19.839 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-10 19:36:19.840 [main] INFO  liquibase.util - Run:                          0
+2024-07-10 19:36:19.840 [main] INFO  liquibase.util - Previously run:               1
+2024-07-10 19:36:19.840 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-10 19:36:19.840 [main] INFO  liquibase.util - -------------------------------
+2024-07-10 19:36:19.841 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-10 19:36:19.842 [main] INFO  liquibase.util - Update summary generated
+2024-07-10 19:36:19.852 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:36:19.859 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:36:19.860 [main] INFO  liquibase.command - Command execution complete
+2024-07-10 19:36:19.970 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 19:36:20.075 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 19:36:20.137 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-10 19:36:20.652 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 19:36:20.727 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 19:36:22.012 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 19:36:22.016 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:36:22.370 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-10 19:36:22.493 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 19:36:22.979 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:36:23.007 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 19:36:23.026 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 7.873 seconds (process running for 8.778)
+2024-07-10 19:37:06.040 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:37:06.043 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-10 19:37:06.054 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-07-10 19:46:19.729 [main] INFO  r.f.library.LibraryApplication - Starting LibraryApplication using Java 17.0.10 with PID 13872 (C:\Users\Alina\Desktop\Library\target\classes started by Alina in C:\Users\Alina\Desktop\Library)
+2024-07-10 19:46:19.734 [main] INFO  r.f.library.LibraryApplication - No active profile set, falling back to 1 default profile: "default"
+2024-07-10 19:46:20.818 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-10 19:46:20.919 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2024-07-10 19:46:21.912 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-07-10 19:46:21.928 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:46:21.931 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-07-10 19:46:21.932 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-10 19:46:22.034 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-07-10 19:46:22.037 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2219 ms
+2024-07-10 19:46:22.277 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-07-10 19:46:22.573 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@13ed066e
+2024-07-10 19:46:22.576 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-07-10 19:46:22.805 [main] INFO  liquibase.database - Set default schema name to public
+2024-07-10 19:46:23.045 [main] INFO  liquibase.lockservice - Successfully acquired change log lock
+2024-07-10 19:46:23.571 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:46:23.598 [main] INFO  liquibase.changelog - Reading from public.databasechangelog
+2024-07-10 19:46:23.603 [main] INFO  liquibase.util - UPDATE SUMMARY
+2024-07-10 19:46:23.604 [main] INFO  liquibase.util - Run:                          0
+2024-07-10 19:46:23.604 [main] INFO  liquibase.util - Previously run:               1
+2024-07-10 19:46:23.604 [main] INFO  liquibase.util - Filtered out:                 0
+2024-07-10 19:46:23.604 [main] INFO  liquibase.util - -------------------------------
+2024-07-10 19:46:23.604 [main] INFO  liquibase.util - Total change sets:            1
+
+2024-07-10 19:46:23.605 [main] INFO  liquibase.util - Update summary generated
+2024-07-10 19:46:23.615 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:46:23.622 [main] INFO  liquibase.lockservice - Successfully released change log lock
+2024-07-10 19:46:23.623 [main] INFO  liquibase.command - Command execution complete
+2024-07-10 19:46:23.738 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-10 19:46:23.854 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-10 19:46:23.919 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-07-10 19:46:24.399 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-10 19:46:24.476 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-10 19:46:25.712 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-10 19:46:25.716 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:46:26.096 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-07-10 19:46:26.210 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-10 19:46:26.721 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-07-10 19:46:26.750 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-07-10 19:46:26.771 [main] INFO  r.f.library.LibraryApplication - Started LibraryApplication in 7.616 seconds (process running for 8.5)
+2024-07-10 19:46:40.399 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-10 19:46:40.400 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-07-10 19:46:40.402 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-07-10 19:46:40.463 [http-nio-8080-exec-1] INFO  r.f.l.service.impl.BookServiceImpl - Finding all books
+2024-07-10 19:46:52.988 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-10 19:46:52.992 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-07-10 19:46:53.005 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
