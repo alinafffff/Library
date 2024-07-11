@@ -6,4 +6,5 @@
                         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
 
     <include file="db/changelog/V_1.0.0/add_column_description.xml"/>
+    <include file="db/changelog/V_2.0.0/add_column_status.xml"/>
 </databaseChangeLog>
